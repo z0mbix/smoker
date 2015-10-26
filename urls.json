@@ -1,0 +1,23 @@
+[
+  {
+    "code": 200,
+    "url": "http://httpbin.org/"
+  },
+  {
+    "code": 200,
+    "url": "https://httpbin.org/"
+  },
+  {
+    "code": 404,
+    "url": "https://httpbin.org/status/404"
+  },
+  {
+    "code": 302,
+    "url": "https://httpbin.org/redirect-to?url=http%3A%2F%2Fexample.com%2F"
+  },
+  {
+    "code": 401,
+    "url": "https://httpbin.org/basic-auth/user/passwd"
+  }
+
+]
